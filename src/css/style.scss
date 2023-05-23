@@ -1,0 +1,36 @@
+@import 'flex';
+@import 'box';
+@import 'pos';
+@import 'text';
+@import 'anim';
+@import 'color';
+
+body {
+  box-sizing: border-box;
+}
+body, h1, h2, h3, p, ul, li {
+  margin: 0;
+  padding: 0;
+}
+
+.bdrs-2 { border-radius: 2px; }
+.bdrs-3 { border-radius: 3px; }
+.bdrs-5 { border-radius: 5px; }
+.bdrs-8 { border-radius: 8px; }
+.bdrs-10 { border-radius: 10px; }
+.bdrs-100 { border-radius: 100px; }
+
+$color1: #9747FF;
+.color-1, .link {
+  color: $color1;
+}
+.bg-1 {
+  background: $color1;
+}
+
+.hover-1 {
+  cursor: pointer;
+}
+.hover-1:hover {
+  opacity: .8;
+}

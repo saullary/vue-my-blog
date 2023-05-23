@@ -1,0 +1,46 @@
+{
+  "Page Title": [
+    {
+      "type": "text",
+      "key": "title",
+      "value": "",
+      "placeholder": "Enter page title"
+    }
+  ],
+  "Bio": [
+    {
+      "type": "text",
+      "key": "bio",
+      "value": "Have a nice day~",
+      "placeholder": "Enter the Bio",
+      "maxLen": 100
+    }
+  ],
+  "Github": [
+    {
+      "type": "text",
+      "key": "github",
+      "value": "https://github.com/hyongnim/vue-my-blog",
+      "placeholder": "Enter Github URL",
+      "regExp": "^http"
+    }
+  ],
+  "Twitter": [
+    {
+      "type": "text",
+      "key": "twitter",
+      "value": "",
+      "placeholder": "Enter Twitter URL",
+      "regExp": "^http"
+    }
+  ],
+  "Facebook": [
+    {
+      "type": "text",
+      "key": "facebook",
+      "value": "",
+      "placeholder": "Enter Facebook URL",
+      "regExp": "^http"
+    }
+  ]
+}
