@@ -1,46 +1,63 @@
 {
-  "Page Title": [
+  "config": [
     {
-      "type": "text",
-      "key": "title",
-      "value": "",
-      "placeholder": "Enter page title"
-    }
-  ],
-  "Bio": [
+      "name": "Page",
+      "options": [
+        {
+          "type": "text",
+          "key": "title",
+          "value": "",
+          "placeholder": "Enter page title"
+        }
+      ]
+    },
     {
-      "type": "text",
-      "key": "bio",
-      "value": "Have a nice day~",
-      "placeholder": "Enter the Bio",
-      "maxLen": 100
-    }
-  ],
-  "Github": [
+      "name": "Bio",
+      "options": [
+        {
+          "type": "text",
+          "key": "bio",
+          "value": "Have a nice day~",
+          "placeholder": "Enter the Bio",
+          "maxLen": 100
+        }
+      ]
+    },
     {
-      "type": "text",
-      "key": "github",
-      "value": "https://github.com/hyongnim/vue-my-blog",
-      "placeholder": "Enter Github URL",
-      "regExp": "^http"
-    }
-  ],
-  "Twitter": [
+      "name": "Github",
+      "options": [
+        {
+          "type": "text",
+          "key": "github",
+          "value": "https://github.com/hyongnim/vue-my-blog",
+          "placeholder": "Enter Github URL",
+          "regExp": "^http"
+        }
+      ]
+    },
     {
-      "type": "text",
-      "key": "twitter",
-      "value": "",
-      "placeholder": "Enter Twitter URL",
-      "regExp": "^http"
-    }
-  ],
-  "Facebook": [
+      "name": "Twitter",
+      "options": [
+        {
+          "type": "text",
+          "key": "twitter",
+          "value": "",
+          "placeholder": "Enter Twitter URL",
+          "regExp": "^http"
+        }
+      ]
+    },
     {
-      "type": "text",
-      "key": "facebook",
-      "value": "",
-      "placeholder": "Enter Facebook URL",
-      "regExp": "^http"
+      "name": "Facebook",
+      "options": [
+        {
+          "type": "text",
+          "key": "facebook",
+          "value": "",
+          "placeholder": "Enter Facebook URL",
+          "regExp": "^http"
+        }
+      ]
     }
   ]
 }

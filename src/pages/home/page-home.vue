@@ -51,10 +51,12 @@ export default {
   methods: {
     async getConfig() {
       try {
-        const { data } = await Axios.get("./config.json");
+        const {
+          data: { config },
+        } = await Axios.get("./config.json");
         const info = {};
-        for (const key in data) {
-          const arr = data[key];
+        for (const row of config) {
+          const arr = row.options;
           for (const row of arr) {
             info[row.key] = row.value;
           }
